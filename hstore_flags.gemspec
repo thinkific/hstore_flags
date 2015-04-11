@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.summary       = "Store many boolean flags in an hstore column in PostgreSQL"
   s.description   = "turns an hstore column into a very useful flags container " +
                     "instead of using separate columns"
-  s.authors       = ["Zachery Hostens"]
+  s.authors       = ["Matt Payne"]
   s.email         = "zacheryph@gmail.com"
-  s.homepage      = "https://github.com/zacheryph/hstore_flags"
+  s.homepage      = "https://github.com/thinkific/hstore_flags"
   s.files         = `git ls-files`.split("\n")
   s.license       = "MIT"
   s.require_paths = ["lib"]

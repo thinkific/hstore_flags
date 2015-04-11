@@ -13,9 +13,9 @@ module HStoreFlags
     return if new_val == old_val
 
     send("#{field}_will_change!")
-    if defined? changed_attributes
-      send(:changed_attributes).merge!(flag.to_s => old_val)
-    end
+    # if defined? changed_attributes
+    #   send(:changed_attributes).merge!(flag.to_s => old_val)
+    # end
     fields = self[field] || {}
 
     if new_val
